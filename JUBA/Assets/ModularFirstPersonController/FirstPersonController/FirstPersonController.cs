@@ -56,8 +56,8 @@ public class FirstPersonController : MonoBehaviour
     #region Movement Variables
 
     public bool playerCanMove = true;
-    public float walkSpeed = 40f;
-    public float maxVelocityChange = 80f;
+    public float walkSpeed = 80f;
+    public float maxVelocityChange = 160f;
 
     // Internal Variables
     private bool isWalking = false;
